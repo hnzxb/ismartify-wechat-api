@@ -1,0 +1,36 @@
+{
+  "name": "@ismartify/wechat-api",
+  "version": "0.0.1-alpha.1",
+  "description": "WeChat API SDK for Node.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "wechat",
+    "weixin",
+    "api",
+    "sdk"
+  ],
+  "author": "ismartify@keepdb.com",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ismartify/ismartify-wechat-api.git"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.2",
+    "vitest": "^1.4.0"
+  }
+}
